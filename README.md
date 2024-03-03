@@ -1,27 +1,41 @@
-# HospitalApp
+# Hospital App-ANGULAR
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+Welcome to the Hospital App, powered by Angular! This application serves as a comprehensive patient and inventory management system, enabling doctors to efficiently maintain patient records and medication lists.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
+- [Screenshot](#screenshot)
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
+- Node.js
+- Express.js
 
-## Build
+## Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Patient Management:** Doctors can easily add patients to the patient list, maintaining their records and medical history.
+- **Medication Prescriptions:** Doctors can prescribe medications for patients, creating and managing medication lists.
+- **Intuitive Patient Search:** Utilize an intuitive patient search functionality to quickly locate patient records.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+![App Screenshot](https://i.postimg.cc/tT9pvp0k/1.png)
+![App Screenshot](https://i.postimg.cc/nhkJsN9Q/2.png)
+![App Screenshot](https://i.postimg.cc/sXf1Qp23/3.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Installation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Provide step-by-step instructions on how to install and set up your project. Be sure to include any dependencies and prerequisites needed.
+
+```bash
+$ git clone https://github.com/yourusername/projectname.git
+$ cd projectname
+$ npm install
+
+
+

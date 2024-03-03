@@ -1,0 +1,92 @@
+{
+  "patients": [
+    {
+      "id": "AS101",
+      "name": "thomas",
+      "address": "payya",
+      "age": "23",
+      "email": "123",
+      "photourl": "https://d2pas86kykpvmq.cloudfront.net/images/humans-3.0/ava-4.png",
+      "gender": "1a",
+      "phone": "9895605077"
+    },
+    {
+      "id": "AS102",
+      "name": "hanna",
+      "address": "soya",
+      "age": "23",
+      "email": "123",
+      "photourl": "https://d2pas86kykpvmq.cloudfront.net/images/humans-3.0/ava-2.png",
+      "gender": "2b",
+      "phone": "9895605090"
+    },
+    {
+      "id": "As103",
+      "name": "sam",
+      "address": "payya",
+      "age": "23",
+      "email": "123",
+      "photourl": "https://d2pas86kykpvmq.cloudfront.net/images/humans-3.0/ava-1.png",
+      "gender": "1a",
+      "phone": "7895605090"
+    },
+    {
+      "id": "AS104",
+      "name": "Karan",
+      "address": "payya",
+      "age": "23",
+      "email": "123",
+      "photourl": "https://d2pas86kykpvmq.cloudfront.net/images/humans-3.0/portrait-1.png",
+      "gender": "2b",
+      "phone": "6895605090"
+    }
+  ],
+  "History": [
+    {
+      "id": "1",
+      "date": "15/02/23",
+      "symptoms": "fever",
+      "medication": "Dolo-500"
+    },
+    {
+      "id": "2",
+      "date": "15/02/23",
+      "symptoms": "cough",
+      "medication": "Dolo-500"
+    },
+    {
+      "id": "3",
+      "date": "15/02/23",
+      "symptoms": "cold",
+      "medication": "Dolo-500"
+    },
+    {
+      "id": "4",
+      "date": "2023-05-25",
+      "symptoms": "nose bleed",
+      "medication": "kolax-550"
+    },
+    {
+      "id": "6",
+      "date": "2023-05-25",
+      "symptoms": "flu",
+      "medication": "qwe-67"
+    },
+    {
+      "id": "awwewqe",
+      "date": "2023-06-29",
+      "symptoms": "qeqw",
+      "medication": "qweqwe"
+    }
+  ],
+  "gender": [
+    {
+      "id": "1a",
+      "genderid": "male"
+    },
+    {
+      "id": "2b",
+      "genderid": "female"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<div class="container ">
+    <div class="col-6" id="history">
+        <div class="mb-3">
+         
+            <label  class="form-label">Sl no</label>
+            <input  [(ngModel)]=" patienthistory.id" name="patienthistory.id" type="text" class="form-control" >
+          </div>
+          <div class="mb-3">
+            <label  class="form-label">Date</label>
+            <input  [(ngModel)]=" patienthistory.date" name="patienthistory.date"  type="Date" class="form-control" >
+          </div>
+          <div class="mb-3">
+            <label  class="form-label">symptoms</label>
+            <input  [(ngModel)]=" patienthistory.symptoms" name="patienthistory.symptoms"  type="text" class="form-control" >
+          </div>
+          <div class="mb-3">
+            <label  class="form-label">Medication</label>
+            <input   [(ngModel)]=" patienthistory.medication" name="patienthistory.medication" type="text" class="form-control" >
+          </div>
+    
+              
+           
+       <div class="row text-center" class="actions">
+    <div class="create">
+      <button (click)=" createhistory()">Add</button>
+    </div>
+    <div class="goback" routerLink="/patientlist/patientview/id"><button>Go Back</button></div>
+    
+      
+  </div>
+
+
+         
+          
+    </div>
+
+</div>

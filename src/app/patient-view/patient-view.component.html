@@ -1,0 +1,62 @@
+
+<div class="container">
+    <h3 >Patient Id: {{patient.id}}</h3>
+    <div class="row ">
+        
+        <div class="col-4 text-center">
+            <img style="width: 200px;margin: 20px; margin-left: 30px; " src="{{patient.photourl}}" class="card-img-top" alt="...">
+        </div>
+       
+        <div class="col-7">
+            <div class="card" style="background-color: rgba(240, 248, 255, 0.512);backdrop-filter:blur(6px);   box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);" >
+                <ul class="list-group list-group-flush" style="background-color: rgba(255, 255, 255, 0.225);">
+                  <li class="list-group-item" style="background-color: rgba(0, 0, 0, 0);">Name: {{patient.name}}</li>
+                  <li class="list-group-item"style="background-color: rgba(0, 0, 0, 0);">Age: {{patient.age}}</li>
+                  <li class="list-group-item"style="background-color: rgba(0, 0, 0, 0);">Gender: {{gendername}}</li>
+                  <li class="list-group-item"style="background-color: rgba(0, 0, 0, 0);">Phone: {{patient.phone}}</li>
+                  <li class="list-group-item"style="background-color: rgba(0, 0, 0, 0);">Address: {{patient.address}}</li>
+                  <li class="list-group-item"style="background-color: rgba(0, 0, 0, 0);">Email:{{patient.email}}</li>
+                </ul>
+              </div>
+        </div>
+        </div>
+      
+    </div>
+
+
+<div class="history">
+    <h4 >Patient History</h4>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Sl.No</th>
+            <th scope="col">Date</th>
+            <th scope="col">symptoms</th>
+            <th scope="col">Medication</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let history of allHistory">
+          <tr>
+            <th scope="row">{{history.id}}</th>
+            <td>{{history.date}}</td>
+            <td>{{history.symptoms}}</td>
+            <td>{{history.medication}}</td>
+            <td> <button > delete</button> </td>
+            
+          </tr>
+         
+      
+        </tbody>
+      </table>
+</div>
+<div class="row text-center" class="actions">
+    <div class="create">
+      <button routerLink="/pathienthistoryupdate/id">Add</button>
+    </div>
+    <div class="goback" routerLink="/patientlist"><button>Go Back</button></div>
+    
+      
+  </div>
+
+

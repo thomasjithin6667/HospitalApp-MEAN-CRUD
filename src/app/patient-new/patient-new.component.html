@@ -1,0 +1,69 @@
+<div class="body">
+    <div class="container">
+    <h1>New Patient Repository</h1>
+
+</div>
+<div class="containerr">
+    <div class="row ">
+        <div class="col-6 text-center pt-5" >
+          <img  id="proimg"src={{patient.photourl}} alt="">
+
+        </div>
+        <div class="col-6 ">
+            <div class="mb-3">
+             
+              <div class="mb-3">
+                <label  class="form-label">Patient ID</label>
+                <input [(ngModel)]="patient.id" name="patient.id" type="text" class="form-control" >
+              </div>
+                <label class="form-label">Name</label>
+                <input  [(ngModel)]="patient.name" name="patient.name" type="text" class="form-control" >
+              </div>
+              <div class="mb-3">
+                <label  class="form-label">Address</label>
+                <input  [(ngModel)]="patient.address" name="patient.address" type="text" class="form-control" >
+              </div>
+              <div class="mb-3">
+                <label  class="form-label">Age</label>
+                <input  [(ngModel)]="patient.age" name="patient.age" type="text" class="form-control" >
+              </div>
+              <div class="mb-3">
+                <label  class="form-label">Phone</label>
+                <input  [(ngModel)]="patient.phone" name="patient.phone" type="text" class="form-control" >
+              </div>
+              <div class="mb-3">
+                <label  class="form-label">Email address</label>
+                <input  [(ngModel)]="patient.email" name="patient.email"type="text" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label  class="form-label">Photo Url</label>
+                <input  [(ngModel)]="patient.photourl" name="patient.photourl" type="text" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label  class="form-label">Gender</label> <br>
+                <select style="padding: 8px; border-radius: 5px; border: solid 1px rgba(0, 0, 0, 0.153); width: 395px;"  [(ngModel)]="patient.gender" name="patient.gender" name="" id="">
+                  <option hidden disabled>{{patient.gender}}</option>
+                  <option  [value]="gender.id" *ngFor="let gender of allGenders" value="">{{gender.genderid}}</option>
+                  
+                  
+                </select>
+              </div>
+
+             
+              
+        </div>
+
+    </div>
+    <div class="row text-center" class="actions">
+      <div class="create">
+        <button (click)="create()">Create</button>
+      </div>
+      <div class="goback" routerLink="/patientlist"><button>Go Back</button></div>
+      
+        
+    </div>
+   
+</div>
+</div>
+
+
